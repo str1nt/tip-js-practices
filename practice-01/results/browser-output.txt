@@ -1,0 +1,40 @@
+hello.js
+Студент: Учебный студент
+Группа: Учебная группа
+Практическая работа: 1
+JavaScript успешно запущен
+Тип document: object
+
+types.js
+"8" + 2: 82 тип: string
+"8" - 2: 6 тип: number
+Number("8") + 2: 10 тип: number
+"12" > "3": false тип: boolean
+12 === "12": false тип: boolean
+Number(""): 0 тип: number
+Number("text"): NaN тип: number
+Boolean("false"): true тип: boolean
+typeof null: object тип результата: string
+typeof NaN: number тип результата: string
+
+progress.js
+Всего задач: 10
+Выполнено: 7
+Осталось: 3
+Прогресс: 70.0%
+Статус: В работе
+
+plan.js
+Осталось задач: 3
+День 1: выполнено 3, осталось 0
+Потребуется дней: 1
+
+debug-original.js
+Выполнено: 32
+Осталось: -24
+Контрольная сумма: 6
+
+debug.js
+Выполнено: 5
+Осталось: 3
+Контрольная сумма: 10

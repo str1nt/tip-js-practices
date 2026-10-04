@@ -1,0 +1,6 @@
+Breakpoint before completedTotal: {"completedText":"3","additionalText":"2","completedType":"string","additionalType":"string"}
+After stepOver: {"completedTotal":"32","type":"string"}
+Loop before addition: {"taskNumber":1,"controlSum":0}
+Loop before addition: {"taskNumber":2,"controlSum":1}
+Loop before addition: {"taskNumber":3,"controlSum":3}
+After loop: taskNumber reached 4; condition taskNumber < 4 is false; controlSum = 6.
