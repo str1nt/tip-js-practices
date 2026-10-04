@@ -1,0 +1,16 @@
+Отсутствующий элемент: null
+Пустая коллекция: 0
+dataset.taskId: 23 string
+Числовой id: 23
+Исходная длина NodeList: 1
+Старый NodeList: 1
+Новый querySelectorAll: 2
+Старый NodeList: 1
+Новый querySelectorAll: 3
+1. phase=1; target=lab-label; currentTarget=lab-card
+2. phase=3; target=lab-label; currentTarget=lab-button
+3. phase=3; target=lab-label; currentTarget=lab-card
+Нажмите на вложенный текст кнопки.
+1. phase=1; target=lab-label; currentTarget=lab-card
+2. phase=3; target=lab-label; currentTarget=lab-button
+3. phase=3; target=lab-label; currentTarget=lab-card

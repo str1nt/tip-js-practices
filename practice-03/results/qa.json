@@ -1,0 +1,394 @@
+{
+  "browser": "138.0.7204.0",
+  "errors": [],
+  "common": [
+    {
+      "label": "0. Исходное состояние",
+      "ids": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "stats": [
+        "4",
+        "2",
+        "2",
+        "50.0%",
+        "4"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {}
+    },
+    {
+      "label": "1. В работе",
+      "ids": [
+        4,
+        7
+      ],
+      "stats": [
+        "4",
+        "2",
+        "2",
+        "50.0%",
+        "2"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "pending"
+      }
+    },
+    {
+      "label": "2. Выполнить 4",
+      "ids": [
+        7
+      ],
+      "stats": [
+        "4",
+        "3",
+        "1",
+        "75.0%",
+        "1"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "pending"
+      }
+    },
+    {
+      "label": "3. Все",
+      "ids": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "stats": [
+        "4",
+        "3",
+        "1",
+        "75.0%",
+        "4"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "all"
+      }
+    },
+    {
+      "label": "4. Удалить 7",
+      "ids": [
+        1,
+        4,
+        10
+      ],
+      "stats": [
+        "3",
+        "3",
+        "0",
+        "100.0%",
+        "3"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "all"
+      }
+    },
+    {
+      "label": "5. Пустой фильтр",
+      "ids": [],
+      "stats": [
+        "3",
+        "3",
+        "0",
+        "100.0%",
+        "0"
+      ],
+      "empty": "Нет задач по выбранному фильтру.",
+      "message": "",
+      "focus": {
+        "filter": "pending"
+      }
+    },
+    {
+      "label": "6. Переключить 1",
+      "ids": [
+        1,
+        4,
+        10
+      ],
+      "stats": [
+        "3",
+        "2",
+        "1",
+        "66.7%",
+        "3"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "action": "toggle"
+      }
+    },
+    {
+      "label": "7. Удалить все",
+      "ids": [],
+      "stats": [
+        "0",
+        "0",
+        "0",
+        "0.0%",
+        "0"
+      ],
+      "empty": "Список задач пуст.",
+      "message": "",
+      "focus": {
+        "filter": "all"
+      }
+    },
+    {
+      "label": "8. Перезагрузка",
+      "ids": [
+        1,
+        4,
+        7,
+        10
+      ],
+      "stats": [
+        "4",
+        "2",
+        "2",
+        "50.0%",
+        "4"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {}
+    }
+  ],
+  "variant": [
+    {
+      "label": "Исходный вариант",
+      "ids": [
+        11,
+        23,
+        37,
+        41,
+        58,
+        64
+      ],
+      "stats": [
+        "6",
+        "6",
+        "0",
+        "100.0%",
+        "6"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {}
+    },
+    {
+      "label": "Исходный фильтр В работе",
+      "ids": [],
+      "stats": [
+        "6",
+        "6",
+        "0",
+        "100.0%",
+        "0"
+      ],
+      "empty": "Нет задач по выбранному фильтру.",
+      "message": "",
+      "focus": {
+        "filter": "pending"
+      }
+    },
+    {
+      "label": "Исходный фильтр Выполненные",
+      "ids": [
+        11,
+        23,
+        37,
+        41,
+        58,
+        64
+      ],
+      "stats": [
+        "6",
+        "6",
+        "0",
+        "100.0%",
+        "6"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "completed"
+      }
+    },
+    {
+      "label": "Переключить 23",
+      "ids": [
+        11,
+        23,
+        37,
+        41,
+        58,
+        64
+      ],
+      "stats": [
+        "6",
+        "5",
+        "1",
+        "83.3%",
+        "6"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "action": "toggle"
+      }
+    },
+    {
+      "label": "Удалить 37",
+      "ids": [
+        11,
+        23,
+        41,
+        58,
+        64
+      ],
+      "stats": [
+        "5",
+        "4",
+        "1",
+        "80.0%",
+        "5"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "all"
+      }
+    },
+    {
+      "label": "Итог В работе",
+      "ids": [
+        23
+      ],
+      "stats": [
+        "5",
+        "4",
+        "1",
+        "80.0%",
+        "1"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "pending"
+      }
+    },
+    {
+      "label": "Итог Выполненные",
+      "ids": [
+        11,
+        41,
+        58,
+        64
+      ],
+      "stats": [
+        "5",
+        "4",
+        "1",
+        "80.0%",
+        "4"
+      ],
+      "empty": "",
+      "message": "",
+      "focus": {
+        "filter": "completed"
+      }
+    }
+  ],
+  "own": [
+    {
+      "label": "Единственная выполненная задача и её удаление",
+      "actual": "Фильтр пуст при total=1; после удаления total=0, другой текст сообщения.",
+      "ok": true
+    },
+    {
+      "label": "Пять циклов фильтров и четыре переключения одной задачи",
+      "actual": "4 / 2 / 2 / 50.0%, четыре карточки, нет двойных обработчиков.",
+      "ok": true
+    },
+    {
+      "label": "Исходный variantTasks после пользовательских действий",
+      "actual": "Шесть исходных id; все completed=true; текущий список 5 / 4 / 1.",
+      "ok": true
+    }
+  ],
+  "experiments": [
+    {
+      "label": "Исходные значения",
+      "actual": [
+        "Отсутствующий элемент: null",
+        "Пустая коллекция: 0",
+        "dataset.taskId: 23 string",
+        "Числовой id: 23",
+        "Исходная длина NodeList: 1"
+      ]
+    },
+    {
+      "label": "Добавление дважды и нажатие по span",
+      "actual": [
+        "Отсутствующий элемент: null",
+        "Пустая коллекция: 0",
+        "dataset.taskId: 23 string",
+        "Числовой id: 23",
+        "Исходная длина NodeList: 1",
+        "Старый NodeList: 1",
+        "Новый querySelectorAll: 2",
+        "Старый NodeList: 1",
+        "Новый querySelectorAll: 3",
+        "1. phase=1; target=lab-label; currentTarget=lab-card",
+        "2. phase=3; target=lab-label; currentTarget=lab-button",
+        "3. phase=3; target=lab-label; currentTarget=lab-card"
+      ]
+    }
+  ],
+  "invalid": [
+    {
+      "rawId": "777",
+      "message": "Ошибка: задача не найдена.",
+      "stats": [
+        "4",
+        "2",
+        "2",
+        "50.0%",
+        "4"
+      ],
+      "unchanged": true
+    },
+    {
+      "rawId": "4abc",
+      "message": "Ошибка: некорректный идентификатор задачи.",
+      "stats": [
+        "4",
+        "2",
+        "2",
+        "50.0%",
+        "4"
+      ],
+      "unchanged": true
+    }
+  ],
+  "keyboard": "Enter на фильтре; Space на статусе; Enter на статусе; Tab к удалению; Space на удалении. Фокус возвращён на кнопку, а при исчезновении карточки — на активный фильтр.",
+  "eventLog": "Нажмите на вложенный текст кнопки.\n1. phase=1; target=lab-label; currentTarget=lab-card\n2. phase=3; target=lab-label; currentTarget=lab-button\n3. phase=3; target=lab-label; currentTarget=lab-card"
+}
